@@ -11,7 +11,7 @@ public class Fibonacci {
 		    System.out.println("Enter the value of n");
 		    n = input.nextInt();
 		    if (n<=2) {
-		    	System.out.println("Invalid parameters, n must be at least 2\n");
+		    	System.out.println("Invalid parameters, n must be at least 3\n");
 		    	input.close();
 		        return;
 		    }
