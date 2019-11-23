@@ -6,7 +6,7 @@ int main() {
     printf("Enter the value of n\n");
     scanf("%d",&n);
     if (n<=2) {
-        printf("Invalid parameters, n must be at least 2\n");
+        printf("Invalid parameters, n must be at least 3\n");
         return 0;
     }
 
