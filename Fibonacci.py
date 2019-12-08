@@ -5,7 +5,6 @@ def fibonacci(n):
     return a 
   i = 2
   while i <= n:  
-      
     c = a + b  
     a = b 
     b = c
