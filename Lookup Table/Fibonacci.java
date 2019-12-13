@@ -1,5 +1,3 @@
-package fibonacci;
-
 import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Scanner;
@@ -12,7 +10,7 @@ public class Fibonacci {
 	private BufferedReader br;
 	
 	public Fibonacci() throws FileNotFoundException {
-		fibSequence = new HashMap<Integer, String>(19999);
+		fibSequence = new HashMap<Integer, String>(14999);
 		file = new File("C:\\Users\\Edo\\sequence.txt");
 		br = new BufferedReader(new FileReader(file)); 
 		
@@ -39,7 +37,7 @@ public class Fibonacci {
 		}	   
 	}
 	
-	public void describe() {
+	public void describe() { //Unused method
         System.out.println("The HashMap has got " + fibSequence.size() + " numbers saved");
 		
 		for (Entry<Integer, String> entry : fibSequence.entrySet()) {
